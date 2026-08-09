@@ -74,7 +74,7 @@ themeDots.forEach((dot) => {
   });
 });
 
-const savedTheme = localStorage.getItem('unshakableTheme') || 'default';
+const savedTheme = localStorage.getItem('unshakableTheme') || 'gold';
 setTheme(savedTheme);
 
 startSlider();
